@@ -7,7 +7,7 @@ export default class Navigation extends Component {
     render() {
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-                <Navbar.Brand href="#home">Ellen Haas</Navbar.Brand>
+                <Navbar.Brand href="#">Ellen Haas</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
