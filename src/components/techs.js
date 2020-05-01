@@ -50,7 +50,7 @@ export default class Techs extends Component {
                     </Container>
                     <br /> <hr/><br />
                     <Container>
-                        <h3>Languages/Framework</h3>
+                        <h3>Languages / Framework</h3>
                         <Row>
                             <Col xs={{span: 4}} md={{span: 1}} >
                             <FontAwesomeIcon className="fa-icon-vert" icon={faPhp} size="2x"/>

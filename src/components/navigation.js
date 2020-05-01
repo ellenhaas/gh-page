@@ -12,6 +12,7 @@ export default class Navigation extends Component {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Link href="#intr">About Me</Nav.Link>
+                    <Nav.Link href="#tech">Technologies</Nav.Link>
                     <Nav.Link href="#stor">Curiculum Vitae</Nav.Link>
                     {/*<Nav.Link href="#cont">Contact</Nav.Link>
                     <Nav.Link href="#down">Downloads</Nav.Link>*/}
