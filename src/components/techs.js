@@ -97,7 +97,7 @@ export default class Techs extends Component {
                         <hr/>
                         <h3>Outils</h3>
                         <Row>
-                            <Col xs={{span: 4}} md={{span: 1}} >
+                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
                             <FontAwesomeIcon className="fa-icon-vert" icon={faGitAlt} size="2x"/>
                             </Col>
                             <Col xs={{span: 4}} md={{span: 1}}>
@@ -106,8 +106,7 @@ export default class Techs extends Component {
                             <Col xs={{span: 4}} md={{span: 1}}>
                             <FontAwesomeIcon className="fa-icon-vert" icon={faDatabase} size="2x"/>
                             </Col>
-                        </Row>
-                        <Row>
+
                             <Col xs={{span: 4}} md={{span: 1}} >
                             <FontAwesomeIcon className="fa-icon-vert" icon={faLinux} size="2x"/>
                             </Col>
