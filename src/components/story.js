@@ -13,10 +13,10 @@ export default class Story extends Component {
                         <h4>Education</h4>
                         <p>
                             <ul>
-                                <li>2020 : Master ès Science (M.Sc.) in Computer Science, Université du Québec À Montréal, Québec, Canada.</li>
-                                <li>2017 : Information Systems Manager, Software Development Major , EXIA.Cesi, Mont Saint Aignan, France.</li>
-                                <li>2014 : Programmer Analyst, EXIA.Cesi, Mont Saint Aignan, France.</li>
-                                <li>2013 : Network and Database Administrator, Cesi, Mont Saint Aignan, France.</li>
+                                <li>2020: Master ès Science (M.Sc.) in Computer Science, Université du Québec À Montréal, Québec, Canada.</li>
+                                <li>2017: Information Systems Manager, Software Development Major , EXIA.Cesi, Mont Saint Aignan, France.</li>
+                                <li>2014: Programmer Analyst, EXIA.Cesi, Mont Saint Aignan, France.</li>
+                                <li>2013: Network and Database Administrator, Cesi, Mont Saint Aignan, France.</li>
                             </ul>
                             <br />
                             <p>
@@ -34,7 +34,7 @@ export default class Story extends Component {
                         <br />
                         <h4>Work Experience</h4>
                         <p>
-                            <i>January 2018 - March 2019 : </i><b> Course instructor and corrector</b>
+                            <i>January 2018 - March 2019: </i><b> Course instructor and corrector</b>
                             <ul>
                                 <li><a href="https://etudier.uqam.ca/cours?sigle=INF2050" target="blank">INF2050 - Software development tools and practices.</a></li>
                                 <li><a href="https://etudier.uqam.ca/cours?sigle=INF2005" target="blank">INF 2005 - Web Programming.</a></li>
@@ -42,13 +42,13 @@ export default class Story extends Component {
                             </ul>
                         </p>
                         <p>
-                            <i>January 2016 - July 2016 : </i><b>Research and Development Trainee</b>
+                            <i>January 2016 - July 2016: </i><b>Research and Development Trainee</b>
                             <ul>
                                 <li>Research internship on the development of a Machine Learning library for NIT.</li>
                             </ul>
                         </p>
                         <p>
-                            <i>September 2015 - December 2015 : </i><b>Development Trainee</b>
+                            <i>September 2015 - December 2015: </i><b>Development Trainee</b>
                             <ul>
                                 <li>Development of a website for the startup "Domos Kit".</li>
                                 <li>Technologies: PHP, HTML 5, CSS 3, Javacript, Jquery, Bootstrap.</li>
@@ -58,7 +58,7 @@ export default class Story extends Component {
                             </ul>
                         </p>
                         <p>
-                            <i>February 2015 - May 2015 : </i><b>Development Trainee</b>
+                            <i>February 2015 - May 2015: </i><b>Development Trainee</b>
                             <ul>
                                 <li>Extension of an intranet.</li>
                                 <li>Technology: Zend Framework 2.</li>
@@ -68,10 +68,10 @@ export default class Story extends Component {
                             </ul>
                         </p>
                         <p>
-                            <i>May 2014 - August 2014 : </i><b>Development Trainee</b>
+                            <i>May 2014 - August 2014: </i><b>Development Trainee</b>
                             <ul>
                                 <li>Development in an existing intranet.</li>
-                                <li>Technologies : PHP, MySQL.</li>
+                                <li>Technologies: PHP, MySQL.</li>
                                 <li>Database Redesign.</li>
                                 <li>Module development.</li>
                             </ul>

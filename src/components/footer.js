@@ -21,13 +21,13 @@ export default class Footer extends Component {
                         <Col md={{ span: 4, offset: 4 }}>Made with Passion by Ellen Haas</Col>
                     </Row>
                     <Row className="padding-30">
-                        <Col md={{ span: 2, offset: 3 }} xs={{span:2, offset:3}}>
+                        <Col md={{ span: 2, offset: 2 }} xs={{span:2, offset:2}}>
                             <a href="https://github.com/ellenhaas/" target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
                         </Col>
-                        <Col md="2" xs={{span:2}}>
+                        <Col md={{ span: 2, offset: 1 }} xs={{span:2, offset: 1}}>
                             <a href="https://twitter.com/HaasEllen2" target="_blank"><FontAwesomeIcon icon={faTwitter} size="4x" /></a>
                         </Col>
-                        <Col md="2" xs={{span:2}}>
+                        <Col md={{ span: 2, offset: 1 }} xs={{span:2, offset: 1}}>
                             <a href="https://www.linkedin.com/in/haasellen/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="4x" /></a>
                         </Col>
                     </Row>

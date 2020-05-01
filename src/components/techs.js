@@ -15,7 +15,7 @@ library.add(
 export default class Techs extends Component {
     render() {
         return (
-            <section id="techs" className="main-wrapper background_sec">
+            <section id="tech" className="main-wrapper background_sec">
                 <div className="main main-raised">
 
 
@@ -52,7 +52,7 @@ export default class Techs extends Component {
                     <Container>
                         <h3>Languages / Framework</h3>
                         <Row>
-                            <Col xs={{span: 4}} md={{span: 1}} >
+                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
                             <FontAwesomeIcon className="fa-icon-vert" icon={faPhp} size="2x"/>
                             </Col>
                             <Col xs={{span: 4}} md={{span: 1}}>
@@ -71,8 +71,9 @@ export default class Techs extends Component {
                             <Col xs={{span: 4}} md={{span: 1}}>
                             <FontAwesomeIcon className="fa-icon-vert" icon={faMarkdown} size="2x"/>
                             </Col>
-                            
-                            <Col xs={{span: 4}} md={{span: 1}} >
+                        </Row>
+                        <Row>    
+                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
                             <FontAwesomeIcon className="fa-icon-vert" icon={faJsSquare} size="2x"/>
                             </Col>
                             <Col xs={{span: 4}} md={{span: 1}}>

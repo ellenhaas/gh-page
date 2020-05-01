@@ -14,6 +14,7 @@ export default class Navigation extends Component {
                     <Nav.Link href="#intr">About Me</Nav.Link>
                     <Nav.Link href="#tech">Technologies</Nav.Link>
                     <Nav.Link href="#stor">Curiculum Vitae</Nav.Link>
+                    <Nav.Link href="#down">Downloads</Nav.Link>
                     {/*<Nav.Link href="#cont">Contact</Nav.Link>
                     <Nav.Link href="#down">Downloads</Nav.Link>*/}
                     </Nav>

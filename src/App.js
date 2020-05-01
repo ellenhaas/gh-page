@@ -10,6 +10,7 @@ import Navigation from './components/navigation'
 import Introduction from './components/introduction'
 import Story from './components/story'
 import Techs from './components/techs'
+import Download from './components/download'
 import Contact from './components/contact'
 import Footer from './components/footer'
 
@@ -22,6 +23,7 @@ function App() {
         <Introduction></Introduction>
         <Techs></Techs>
         <Story></Story>
+        <Download></Download>
         <Footer></Footer>
       </div>
 
