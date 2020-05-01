@@ -18,6 +18,7 @@ export default class Story extends Component {
                                 <li>2014 : Programmer Analyst, EXIA.Cesi, Mont Saint Aignan, France.</li>
                                 <li>2013 : Network and Database Administrator, Cesi, Mont Saint Aignan, France.</li>
                             </ul>
+                            <br />
                             <p>
                                 <b>Research project for the Master</b>
                                 <br /><b>Game Genesis - A UML profile for writing Game Design Documents : </b>Creation of a UML
@@ -30,6 +31,7 @@ export default class Story extends Component {
                         </p>
                         <br />
                         <hr />
+                        <br />
                         <h4>Work Experience</h4>
                         <p>
                             <i>January 2018 - March 2019 : </i><b> Course instructor and corrector</b>

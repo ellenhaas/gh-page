@@ -96,6 +96,22 @@ footer{
   background-color: black;
 }
 
+.fa-container-inline{
+  line-height: 50px;
+  vertical-align: middle;
+}
+.fa-icon-vert{
+  vertical-align: middle;
+}
+.fa-text-align{
+  text-align: left;
+}
+
+.fa-text-align-right{
+  text-align: right;
+}
+
+
 @media only screen and (max-width: 600px){
   .main{
     padding-right: 15px;
@@ -113,6 +129,10 @@ footer{
 
   .main-wrapper {
     padding: 10px;
+  }
+
+  .fa-text-align{
+    text-align: center;
   }
   
 }

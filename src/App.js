@@ -9,6 +9,7 @@ import Header from './components/header'
 import Navigation from './components/navigation'
 import Introduction from './components/introduction'
 import Story from './components/story'
+import Techs from './components/techs'
 import Contact from './components/contact'
 import Footer from './components/footer'
 
@@ -19,6 +20,7 @@ function App() {
         <Navigation></Navigation>
         <Header></Header>
         <Introduction></Introduction>
+        <Techs></Techs>
         <Story></Story>
         <Footer></Footer>
       </div>
