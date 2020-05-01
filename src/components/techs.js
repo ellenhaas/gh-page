@@ -29,6 +29,7 @@ export default class Techs extends Component {
                                 Ready to work remotely
                             </Col>
                         </Row>
+                        <hr/>
                         <Row>
                             <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
                                 <FontAwesomeIcon className="fa-icon-vert" icon={faLaptopCode} size="2x"/>
@@ -37,6 +38,7 @@ export default class Techs extends Component {
                                 Windows and Linux environments ready
                             </Col>
                         </Row> 
+                        <hr/>
                         <Row>
                             <Col xs={{span: 12}} md={{span: 3, offset: 2}}>
                                 <FontAwesomeIcon className="fa-icon-vert" icon={faIdCard} size="2x"/>
