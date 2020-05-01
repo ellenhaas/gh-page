@@ -22,26 +22,26 @@ export default class Techs extends Component {
                     <Container className="fa-container-inline">
 
                         <Row className="fa-container-inline">
-                            <Col xs={{span: 1, offset: 1}} md={{span: 3, offset: 2}} >
+                            <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
                                 <FontAwesomeIcon className=" fa-icon-vert" icon={faCheckCircle} size="2x" />
                             </Col>
-                            <Col xs={{span: 10}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
+                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
                                 Ready to work remotely
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs={{span: 1, offset: 1}} md={{span: 3, offset: 2}} >
+                            <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
                                 <FontAwesomeIcon className="fa-icon-vert" icon={faLaptopCode} size="2x"/>
                             </Col>
-                            <Col xs={{span: 10}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
+                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
                                 Windows and Linux environments ready
                             </Col>
                         </Row> 
                         <Row>
-                            <Col xs={{span: 1, offset: 1}} md={{span: 3, offset: 2}}>
+                            <Col xs={{span: 12}} md={{span: 3, offset: 2}}>
                                 <FontAwesomeIcon className="fa-icon-vert" icon={faIdCard} size="2x"/>
                             </Col>
-                            <Col xs={{span: 10}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
+                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
                             Allowed to work in Canada (Visa OK)
                             </Col>
                         </Row> 
