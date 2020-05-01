@@ -6,11 +6,11 @@ export default class Story extends Component {
         return (
             <section id="stor" className="main-wrapper background_sec">
                 <div className="main main-raised">
-                    <h1 className="padding-30">Curiculum Vitae</h1>
+                    <h2 className="padding-30">Curiculum Vitae</h2>
                     <Container>
                         <p>
                             
-                        <h3>Education</h3>
+                        <h4>Education</h4>
                         <p>
                             <ul>
                                 <li>2020 : Master ès Science (M.Sc.) in Computer Science, Université du Québec À Montréal, Québec, Canada.</li>
@@ -30,7 +30,7 @@ export default class Story extends Component {
                         </p>
                         <br />
                         <hr />
-                        <h3>Work Experience</h3>
+                        <h4>Work Experience</h4>
                         <p>
                             <i>January 2018 - March 2019 : </i><b> Course instructor and corrector</b>
                             <ul>
