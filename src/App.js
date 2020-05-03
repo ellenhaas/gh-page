@@ -8,7 +8,8 @@ import Head from './components/head'
 import Header from './components/header'
 import Navigation from './components/navigation'
 import Introduction from './components/introduction'
-import Story from './components/story'
+import Education from './components/education'
+import Work from './components/work'
 import Techs from './components/techs'
 import Download from './components/download'
 import Contact from './components/contact'
@@ -20,10 +21,11 @@ function App() {
         <Head></Head>
         <Navigation></Navigation>
         <Header></Header>
+        <Download></Download>
         <Introduction></Introduction>
         <Techs></Techs>
-        <Story></Story>
-        <Download></Download>
+        <Education></Education>
+        <Work></Work>
         <Footer></Footer>
       </div>
 

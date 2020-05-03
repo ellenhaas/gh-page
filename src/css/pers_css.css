@@ -15,12 +15,31 @@ ul{
   list-style-type: circle;
 }
 
+
+h1, h2, h3, h4, h5{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+h3{
+  padding-bottom: 30px;
+}
+
 .align-center-all{
   display: block;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   text-align: center;
+}
+
+.padding-DL{
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .padding-30{
@@ -109,6 +128,10 @@ footer{
 
 .fa-text-align-right{
   text-align: right;
+}
+
+.fa-padding{
+  margin: 10px;
 }
 
 

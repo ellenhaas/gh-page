@@ -17,105 +17,86 @@ export default class Techs extends Component {
         return (
             <section id="tech" className="main-wrapper background_sec">
                 <div className="main main-raised">
-
-
-                    <Container className="fa-container-inline">
-
-                        <Row className="fa-container-inline">
-                            <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
-                                <FontAwesomeIcon className=" fa-icon-vert" icon={faCheckCircle} size="2x" />
-                            </Col>
-                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
-                                Ready to work remotely
-                            </Col>
-                        </Row>
-                        <hr/>
-                        <Row>
-                            <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
-                                <FontAwesomeIcon className="fa-icon-vert" icon={faLaptopCode} size="2x"/>
-                            </Col>
-                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
-                                Windows and Linux environments ready
-                            </Col>
-                        </Row> 
-                        <hr/>
-                        <Row>
-                            <Col xs={{span: 12}} md={{span: 3, offset: 2}}>
-                                <FontAwesomeIcon className="fa-icon-vert" icon={faIdCard} size="2x"/>
-                            </Col>
-                            <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
-                            Allowed to work in Canada (Visa OK)
-                            </Col>
-                        </Row> 
-                    </Container>
-                    <br /> <hr/><br />
                     <Container>
                         <h3>Languages / Framework</h3>
-                        <Row>
-                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faPhp} size="2x"/>
+                        <Row> 
+                            <Col xs={{span: 4}} md={{span: 2}} >
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faPhp} size="2x" title="PHP"/>
+                                <br/> PHP
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faSymfony} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faSymfony} size="2x" title="Symfony"/>
+                                <br/> Symfony
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faBootstrap} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faBootstrap} size="2x" title="Bootstrap"/>
+                                <br/> Bootstrap
                             </Col>
-
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faHtml5} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faHtml5} size="2x" title="HTML 5"/>
+                                <br/> HTML 5
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faCss3Alt} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faCss3Alt} size="2x" title="CSS 3"/>
+                                <br/> CSS 3
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faMarkdown} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faMarkdown} size="2x" title="Markdown"/>
+                                <br/> Markdown
                             </Col>
                         </Row>
-                        <Row>    
-                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faJsSquare} size="2x"/>
+                        <Row className="fa-padding">    
+                            <Col xs={{span: 4}} md={{span: 2}} >
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faJsSquare} size="2x" title="JavaScript"/>
+                                <br/> JavaScript
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faReact} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faReact} size="2x" title="React"/>
+                                <br/> React
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faVuejs} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faVuejs} size="2x" title="Vue JS"/>
+                                <br/> Vue JS
                             </Col>
-
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faNodeJs} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faNodeJs} size="2x" title="Node JS"/>
+                                <br/> Node JS
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faAngular} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faAngular} size="2x" title="Angular"/>
+                                <br/> Angular
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faJava} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faJava} size="2x" title="Java"/>
+                                <br/> Java
                             </Col>
                         </Row>
 
 
                         <hr/>
-                        <h3>Outils</h3>
-                        <Row>
-                            <Col xs={{span: 4}} md={{span: 1, offset: 3}} >
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faGitAlt} size="2x"/>
+                        <h3>Tools</h3>
+                        <Row className="fa-padding">
+                            <Col xs={{span: 4}} md={{span: 2, offset: 3}} >
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faGitAlt} size="2x" title="Git"/>
+                                <br/> Git
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faTrello} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faTrello} size="2x" title="Trello"/>
+                                <br/> Trello
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faDatabase} size="2x"/>
+                            <Col xs={{span: 4}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faDatabase} size="2x" title="Databases"/>
+                                <br/> Databases
                             </Col>
-
-                            <Col xs={{span: 4}} md={{span: 1}} >
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faLinux} size="2x"/>
+                        </Row>
+                        <Row className="fa-padding">
+                            <Col xs={{span: 6}} md={{span: 2, offset: 4}} >
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faLinux} size="2x" title="Linux"/>
+                                <br/> Linux
                             </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faUbuntu} size="2x"/>
-                            </Col>
-                            <Col xs={{span: 4}} md={{span: 1}}>
-                            <FontAwesomeIcon className="fa-icon-vert" icon={faWindows} size="2x"/>
+                            <Col xs={{span: 6}} md={{span: 2}}>
+                                <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faWindows} size="2x" title="Windows"/>
+                                <br/> Windows
                             </Col>
                         </Row>
                         <br/>
