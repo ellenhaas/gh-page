@@ -14,15 +14,15 @@ export default class Introduction extends Component {
         return (
             <section id="intr" className="main-wrapper background_sec">
                 <div className="main main-raised">
-                    <h2 className="padding-30">About me</h2>
 
                     <Container className="fa-container-inline">
+                        <h2>About me</h2>
                         <Row className="fa-container-inline">
                             <Col xs={{span: 12}} md={{span: 3, offset: 2}} >
                                 <FontAwesomeIcon className=" fa-icon-vert" icon={faUser} size="2x" />
                             </Col>
                             <Col xs={{span: 12}} md={{span: 6, offset: 0}} className="fa-text-align fa-icon-vert">
-                                <h4>Ellen HAAS</h4>
+                                Ellen HAAS
                             </Col>
                         </Row>
                         <hr/>

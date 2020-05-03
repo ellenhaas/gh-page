@@ -11,11 +11,11 @@ export default class Navigation extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
+                    <Nav.Link href="#down">Downloads</Nav.Link>
                     <Nav.Link href="#intr">About Me</Nav.Link>
                     <Nav.Link href="#tech">Technologies</Nav.Link>
                     <Nav.Link href="#educ">Education</Nav.Link>
                     <Nav.Link href="#work">Work Experience</Nav.Link>
-                    <Nav.Link href="#down">Downloads</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
           </Navbar>

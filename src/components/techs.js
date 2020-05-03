@@ -18,7 +18,7 @@ export default class Techs extends Component {
             <section id="tech" className="main-wrapper background_sec">
                 <div className="main main-raised">
                     <Container>
-                        <h3>Languages / Framework</h3>
+                        <h2>Languages / Framework</h2>
                         <Row> 
                             <Col xs={{span: 4}} md={{span: 2}} >
                                 <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faPhp} size="2x" title="PHP"/>
@@ -74,7 +74,7 @@ export default class Techs extends Component {
 
 
                         <hr/>
-                        <h3>Tools</h3>
+                        <h2>Tools</h2>
                         <Row className="fa-padding">
                             <Col xs={{span: 4}} md={{span: 2, offset: 3}} >
                                 <FontAwesomeIcon className="fa-icon-vert fa-padding" icon={faGitAlt} size="2x" title="Git"/>
